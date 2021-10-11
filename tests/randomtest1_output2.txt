@@ -1,0 +1,15 @@
+Container without elements lower then average: 
+Container has 13 elements.
+Functional Programming Language: name = jQ, yearOfCreation = 2014,indexTIOBE = 53.000000, typingScheme = Principle, supportOfLazyComputations = 0
+Object Oriented Programming Language: name = Of8, yearOfCreation = 1984,indexTIOBE = 40.000000, inheritanceType = Single
+Functional Programming Language: name = R66, yearOfCreation = 2011,indexTIOBE = 4.000000, typingScheme = Dynamic, supportOfLazyComputations = 1
+Functional Programming Language: name = f, yearOfCreation = 2015,indexTIOBE = 42.000000, typingScheme = Dynamic, supportOfLazyComputations = 0
+Functional Programming Language: name = 6, yearOfCreation = 2015,indexTIOBE = 8.000000, typingScheme = Dynamic, supportOfLazyComputations = 0
+Procedural Programming Language: name = 4z, yearOfCreation = 1980, indexTIOBE = 0, presenceOfADT = 0
+Functional Programming Language: name = 3, yearOfCreation = 1967,indexTIOBE = 85.000000, typingScheme = Principle, supportOfLazyComputations = 0
+Procedural Programming Language: name = wlxZ, yearOfCreation = 1986, indexTIOBE = 0, presenceOfADT = 0
+Procedural Programming Language: name = y, yearOfCreation = 1989, indexTIOBE = 1, presenceOfADT = 0
+Functional Programming Language: name = MV6, yearOfCreation = 1970,indexTIOBE = 10.000000, typingScheme = Principle, supportOfLazyComputations = 1
+Functional Programming Language: name = q5, yearOfCreation = 2016,indexTIOBE = 20.000000, typingScheme = Principle, supportOfLazyComputations = 1
+Procedural Programming Language: name = kmw, yearOfCreation = 2008, indexTIOBE = 1, presenceOfADT = 0
+Procedural Programming Language: name = 9, yearOfCreation = 1997, indexTIOBE = 1, presenceOfADT = 0

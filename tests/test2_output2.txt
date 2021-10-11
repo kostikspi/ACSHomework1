@@ -1,0 +1,3 @@
+Container without elements lower then average: 
+Container has 1 elements.
+Procedural Programming Language: name = R, yearOfCreation = 1996, indexTIOBE = 0, presenceOfADT = 0

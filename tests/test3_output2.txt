@@ -1,0 +1,5 @@
+Container without elements lower then average: 
+Container has 3 elements.
+Procedural Programming Language: name = c, yearOfCreation = 1995, indexTIOBE = 0, presenceOfADT = 0
+Object Oriented Programming Language: name = c#, yearOfCreation = 2001,indexTIOBE = 32.000000, inheritanceType = Interface
+Procedural Programming Language: name = R, yearOfCreation = 1996, indexTIOBE = 0, presenceOfADT = 0

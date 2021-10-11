@@ -1,0 +1,3 @@
+Container without elements lower then average: 
+Container has 1 elements.
+Object Oriented Programming Language: name = hse#, yearOfCreation = 1992,indexTIOBE = 21.000000, inheritanceType = Interface

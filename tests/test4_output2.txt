@@ -1,0 +1,5 @@
+Container without elements lower then average: 
+Container has 3 elements.
+Object Oriented Programming Language: name = Java, yearOfCreation = 1990,indexTIOBE = 13.000000, inheritanceType = Single
+Functional Programming Language: name = CC+, yearOfCreation = 2021,indexTIOBE = 45.000000, typingScheme = Principle, supportOfLazyComputations = 1
+Object Oriented Programming Language: name = sadj, yearOfCreation = 1977,indexTIOBE = 77.000000, inheritanceType = Interface
