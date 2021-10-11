@@ -21,7 +21,7 @@ void In(container &c, FILE *file) {
     while (!feof(file)) {
         if ((c.content[c.len] = In(file)) != nullptr) {
             c.len++;
-    }
+        }
     }
 }
 
@@ -44,21 +44,21 @@ void DeleteElementsLowerThenAverage(container &c) {
     double averageQuotient, sum = 0;
     container newContainer;
     Init(newContainer);
-    for(int i = 0; i < c.len; i++) {
+    for (int i = 0; i < c.len; i++) {
         sum += Quotient(*c.content[i]);
     }
     averageQuotient = sum / c.len;
     int index = 0;
     int count = 0;
-    for(int i = 0; i < c.len; i++) {
-        if(Quotient(*c.content[i]) > averageQuotient) {
+    for (int i = 0; i < c.len; i++) {
+        if (Quotient(*c.content[i]) > averageQuotient) {
             count++;
         }
     }
 
     InRnd(newContainer, count);
-    for(int i = 0; i < c.len; i++) {
-        if(Quotient(*c.content[i]) < averageQuotient) {
+    for (int i = 0; i < c.len; i++) {
+        if (Quotient(*c.content[i]) < averageQuotient) {
             continue;
         }
         newContainer.content[index] = c.content[i];

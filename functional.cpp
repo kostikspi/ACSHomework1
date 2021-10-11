@@ -36,13 +36,13 @@ void InRnd(functional &f) {
 
 void Out(functional &f, FILE *file) {
 
-    char* typingScheme;
-    switch(f.typingScheme) {
+    char *typingScheme;
+    switch (f.typingScheme) {
         case 0:
-            typingScheme = (char*)"Principle";
+            typingScheme = (char *) "Principle";
             break;
         case 1:
-            typingScheme = (char*)"Dynamic";
+            typingScheme = (char *) "Dynamic";
             break;
     }
     fprintf(file, "Functional Programming Language: name = %s, yearOfCreation = %d,"
@@ -55,10 +55,10 @@ double Quotient(functional &f) {
 }
 
 functional::typing ReadTypingScheme(FILE *pFile) {
-    char* inheritanceType = ReadStringFromFile(pFile);
-    if(strcmp(inheritanceType, "Principle"))
+    char *inheritanceType = ReadStringFromFile(pFile);
+    if (strcmp(inheritanceType, "Principle"))
         return functional::PRINCIPAL;
-    if(strcmp(inheritanceType, "Dynamic"))
+    if (strcmp(inheritanceType, "Dynamic"))
         return functional::DYNAMIC;
     return functional::PRINCIPAL;
 }

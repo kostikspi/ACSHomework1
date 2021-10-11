@@ -28,17 +28,15 @@ struct programming_language {
 };
 
 
-    programming_language* In(FILE *file);
+programming_language *In(FILE *file);
 
-    programming_language* InRnd();
+programming_language *InRnd();
 
-    void Out(programming_language &s, FILE *file);
+void Out(programming_language &s, FILE *file);
 
-    // возвращает значение частного
-    // от деления programming_language.yearOfCreation / programming_language.name.size()
-    double Quotient(programming_language &s);
-
-
+// возвращает значение частного
+// от деления programming_language.yearOfCreation / programming_language.name.size()
+double Quotient(programming_language &s);
 
 
 #endif //ACSHOMEWORK1_PROGRAMMING_LANGUAGE_H

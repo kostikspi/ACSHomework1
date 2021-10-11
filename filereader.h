@@ -15,8 +15,7 @@ int ReadIntegerFromFile(FILE *file);
 
 bool ReadBooleanFromFile(FILE *file);
 
-char* ReadStringFromFile(FILE *file);
-
+char *ReadStringFromFile(FILE *file);
 
 
 #endif //ACSHOMEWORK1_FILEREADER_H

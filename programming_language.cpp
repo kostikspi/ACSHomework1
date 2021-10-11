@@ -5,7 +5,7 @@
 #include "programming_language.h"
 
 
-programming_language* In(FILE *file) {
+programming_language *In(FILE *file) {
     programming_language *pl;
 
     int programming_language_type;
@@ -37,8 +37,8 @@ programming_language* In(FILE *file) {
 
 programming_language *InRnd() {
     int k = rand() % 3 + 1;
-    programming_language* pl;
-    switch(k) {
+    programming_language *pl;
+    switch (k) {
         case 1:
             pl = new programming_language;
             pl->k = programming_language::PROCEDURAL;
@@ -89,4 +89,5 @@ double Quotient(programming_language &pl) {
             return 0;
     }
 }
+
 #include "programming_language.h"

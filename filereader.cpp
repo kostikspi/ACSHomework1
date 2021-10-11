@@ -22,11 +22,11 @@ bool ReadBooleanFromFile(FILE *file) {
     return output;
 }
 
-char* ReadStringFromFile(FILE *file) {
+char *ReadStringFromFile(FILE *file) {
     char outputCharArray[1000];
     fscanf(file, "%s", outputCharArray);
-    char* output = (char*)malloc(strlen(outputCharArray));
-    for(int i = 0; i < strlen(outputCharArray); i++) {
+    char *output = (char *) malloc(strlen(outputCharArray));
+    for (int i = 0; i < strlen(outputCharArray); i++) {
         output[i] = outputCharArray[i];
     }
     return output;

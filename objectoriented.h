@@ -10,13 +10,13 @@
 
 struct objectoriented {
     double indexTIOBE;
-    char* name;
+    char *name;
     int yearOfCreation;
     enum inheritance {
         SINGLE,
         MULTIPLE,
         INTERFACE
-    } ;
+    };
     inheritance inheritanceType;
 };
 
@@ -29,8 +29,6 @@ void Out(objectoriented &s, FILE *file);
 // возвращает значение частного
 // от деления objectoriented.yearOfCreation / objectoriented.name.size()
 double Quotient(objectoriented &s);
-
-
 
 
 #endif //ACSHOMEWORK1_OBJECTORIENTED_H

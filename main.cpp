@@ -22,33 +22,31 @@ void errMessage2() {
 }
 
 int main(int argc, char *argv[]) {
-    if(argc != 5) {
+    if (argc != 5) {
         errMessage1();
         return 1;
     }
 
-    std::cout << "Start"<< std::endl;
+    std::cout << "Start" << std::endl;
     container c = {};
     Init(c);
     int size;
 
     ////cout << "argv[1] = " << argv[1] << "\n";
-    if(!strcmp(argv[1], "-f")) {
+    if (!strcmp(argv[1], "-f")) {
         FILE *file = fopen(argv[2], "rw");
         In(c, file);
         fclose(file);
-    }
-    else if(!strcmp(argv[1], "-n")) {
+    } else if (!strcmp(argv[1], "-n")) {
         size = atoi(argv[2]);
-        if((size < 1) || (size > 10000)) {
+        if ((size < 1) || (size > 10000)) {
             std::cout << "incorrect number of languages = "
-                 << size
-                 << ". Set 0 < number <= 10000\n";
+                      << size
+                      << ". Set 0 < number <= 10000\n";
             return 3;
         }
         InRnd(c, size);
-    }
-    else {
+    } else {
         errMessage2();
         return 2;
     }
@@ -60,12 +58,12 @@ int main(int argc, char *argv[]) {
 
 
     // Вывод содержимого контейнера в файл
-    FILE* outputFile = fopen(argv[3], "w+");
+    FILE *outputFile = fopen(argv[3], "w+");
     fprintf(outputFile, "Filled container:\n");
     Out(c, outputFile);
 
     // The 2nd part of task
-    FILE* sortedOutputFile =  fopen(argv[4], "w+");
+    FILE *sortedOutputFile = fopen(argv[4], "w+");
     DeleteElementsLowerThenAverage(c);
     fprintf(sortedOutputFile, "Container without elements lower then average: \n");
     Out(c, sortedOutputFile);

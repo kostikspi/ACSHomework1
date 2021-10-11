@@ -9,12 +9,12 @@
 
 struct procedural {
     double indexTIOBE;
-    char* name;
+    char *name;
     int yearOfCreation;
     bool presenceOfADT;
 };
 
-void In(procedural &p,FILE *file);
+void In(procedural &p, FILE *file);
 
 void InRnd(procedural &p);
 

@@ -40,20 +40,22 @@ void InRnd(objectoriented &ob) {
 
 void Out(objectoriented &ob, FILE *file) {
 
-    char* inheritanceType;
+    char *inheritanceType;
     switch (ob.inheritanceType) {
         case 0:
-            inheritanceType = (char*)"Single";
+            inheritanceType = (char *) "Single";
             break;
         case 1:
-            inheritanceType = (char*)"Multiple";
+            inheritanceType = (char *) "Multiple";
             break;
         case 2:
-            inheritanceType = (char*)"Interface";
+            inheritanceType = (char *) "Interface";
             break;
 
     }
-    fprintf(file, "Object Oriented Programming Language: name = %s, yearOfCreation = %d,indexTIOBE = %f, inheritanceType = %s\n", ob.name, ob.yearOfCreation, ob.indexTIOBE, inheritanceType);
+    fprintf(file,
+            "Object Oriented Programming Language: name = %s, yearOfCreation = %d,indexTIOBE = %f, inheritanceType = %s\n",
+            ob.name, ob.yearOfCreation, ob.indexTIOBE, inheritanceType);
 }
 
 double Quotient(objectoriented &ob) {
@@ -61,12 +63,12 @@ double Quotient(objectoriented &ob) {
 }
 
 objectoriented::inheritance ReadInheritanceType(FILE *pFile) {
-    char* inheritanceType = ReadStringFromFile(pFile);
-    if(strcmp(inheritanceType, "Single") == 0)
+    char *inheritanceType = ReadStringFromFile(pFile);
+    if (strcmp(inheritanceType, "Single") == 0)
         return objectoriented::SINGLE;
-    if(strcmp(inheritanceType, "Multiple") == 0)
+    if (strcmp(inheritanceType, "Multiple") == 0)
         return objectoriented::MULTIPLE;
-    if(strcmp(inheritanceType, "Interface") == 0)
+    if (strcmp(inheritanceType, "Interface") == 0)
         return objectoriented::INTERFACE;
     return objectoriented::MULTIPLE;
 }

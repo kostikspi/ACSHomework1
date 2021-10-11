@@ -8,10 +8,10 @@
 #include <cstdio>
 #include <cstdlib>
 
-char* GetRandomString(int length){
+char *GetRandomString(int length) {
     char letters[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890+#.";
-    char* string = (char*)malloc(length);
-    for(int i = 0; i < length; i++) {
+    char *string = (char *) malloc(length);
+    for (int i = 0; i < length; i++) {
         int randomChar = rand() % 65;
         string[i] = letters[randomChar];
     }

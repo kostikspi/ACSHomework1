@@ -7,6 +7,6 @@
 
 #include <cstdio>
 
-char* GetRandomString(int length);
+char *GetRandomString(int length);
 
 #endif //ACSHOMEWORK1_STRINGRANDOMIZER_H

@@ -10,7 +10,7 @@
 
 struct functional {
     double indexTIOBE;
-    char* name;
+    char *name;
     int yearOfCreation;
     enum typing {
         PRINCIPAL,
@@ -29,7 +29,6 @@ void Out(functional &s, FILE *file);
 // возвращает значение частного
 // от деления objectoriented.yearOfCreation / objectoriented.name.size()
 double Quotient(functional &s);
-
 
 
 #endif //ACSHOMEWORK1_FUNCTIONAL_H

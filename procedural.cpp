@@ -25,7 +25,7 @@ void InRnd(procedural &p) {
 void Out(procedural &p, FILE *file) {
     fprintf(file, "Procedural Programming Language: name = %s, yearOfCreation = %d, "
                   "indexTIOBE = %d, presenceOfADT = %d\n", p.name, p.yearOfCreation,
-                  p.indexTIOBE, p.presenceOfADT);
+            p.indexTIOBE, p.presenceOfADT);
 }
 
 double Quotient(procedural &p) {
